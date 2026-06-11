@@ -10,9 +10,19 @@
   <!-- Link to manifest with subfolder path -->
   <link rel="manifest" href="/PESTOhome/manifest.json"> 
   
-  <!-- Fallback icons for iOS and general browsers -->
-  <link rel="apple-touch-icon" href="/pesto746.github.io/logo.png">
-  <link rel="icon" type="image/jpeg" href="/pesto746.github.io/logo.png">
+<!-- 1. Standard Favicon for Browser Tabs -->
+<link rel="icon" type="image/png" href="logo.png">
+
+<!-- 2. For Chrome & Android (High Res) -->
+<link rel="icon" sizes="192x192" href="logo.png">
+<link rel="icon" sizes="512x512" href="logo.png">
+
+<!-- 3. For Apple iPhone/iPad (Home Screen) -->
+<link rel="apple-touch-icon" href="logo.png">
+
+<!-- 4. Windows Tile Icon -->
+<meta name="msapplication-TileImage" content="logo.png">
+
 </head>
 
   <style>
