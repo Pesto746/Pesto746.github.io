@@ -10,10 +10,10 @@
 • Save and share
 • Install page as app
 ## Ios
-• Open Safari
-• Click share
-• Click view more 
-• Click Add to Home Screen 
+• Open website
+• Press PESTOhome Ipa file
+• And install
+• (Note: you will need to sideload it or you could use method 2 which is to open Safari, click share, click view more, and click Add to Home Screen ) 
 ## Android
 • Open website 
 • Press PESTOhome Android app 
