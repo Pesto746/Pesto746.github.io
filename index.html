@@ -75,18 +75,15 @@
 <meta name="msvalidate.01" content="79B73AA4044708F955D3B3CA252AAD69" />
  <meta name="description" content="its a very cool homepage i made">
 </head>
+  </head>
+<script>
+  // Runs immediately for users before the page finish loading, ignoring window.onload completely
+  document.title = "Pesto Homepage";
+</script>
 <body class="w3-black">
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWSKFNMNV5"></script>
 <script>
-  window.onload = function () {
-  // Swaps the tab text instantly for normal users
-  document.title = "Pesto Homepage"; 
-
-  const canvas = document.createElement('canvas');
-  document.body.appendChild(canvas); 
-  // ... rest of your matrix code stays exactly the same ...
-
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
