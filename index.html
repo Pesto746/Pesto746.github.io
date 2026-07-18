@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Pesto Homepage</title>
+  <title>Pesto Homepage (i need to make the title longer for bing to stfu and let me put it there)</title>
   <meta name="google-site-verification" content="D3LFrdUTrlatgJkydYfAXZmXHYtzPQvFqwLoVjy8Iig" />
   <!-- Link to manifest with subfolder path -->
   <link rel="manifest" href="/PESTOhome/manifest.json"> 
@@ -75,12 +75,18 @@
 <meta name="msvalidate.01" content="79B73AA4044708F955D3B3CA252AAD69" />
  <meta name="description" content="its a very cool homepage i made">
 </head>
-
-
 <body class="w3-black">
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWSKFNMNV5"></script>
 <script>
+  window.onload = function () {
+  // Swaps the tab text instantly for normal users
+  document.title = "Pesto Homepage"; 
+
+  const canvas = document.createElement('canvas');
+  document.body.appendChild(canvas); 
+  // ... rest of your matrix code stays exactly the same ...
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
