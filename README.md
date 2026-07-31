@@ -1,4 +1,4 @@
-![Badge](https://hitscounter.dev/api/hit?url=pesto746.github.io&label=Visits&icon=phone-fill&color=%23198754&message=&style=plastic&tz=UTC)
+![Badge](https://hitscounter.dev/api/hit?url=pesto746.github.io&label=Visits&icon=phone-fill&color=%23198754&message=&style=plastic&tz=Australia%2FSydney)
 # Installing on devices
 ## Windows
 • Open Google Chrome
