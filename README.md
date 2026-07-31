@@ -1,4 +1,4 @@
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fpesto746.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visits&edge_flat=false)](https://hits.seeyoufarm.com)
+![Badge](https://hitscounter.dev/api/hit?url=pesto746.github.io&label=Visits&icon=phone-fill&color=%23198754&message=&style=plastic&tz=UTC)
 # Installing on devices
 ## Windows
 • Open Google Chrome
