@@ -13,4 +13,6 @@ jobs:
 
       - name: Save my site
         uses: JamieMagee/wayback@v2
-        
+        with:
+          url: https://pesto746.github.io
+          
