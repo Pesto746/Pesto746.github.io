@@ -1,0 +1,22 @@
+name: Archive to Wayback Machine
+
+on:
+  push:
+    branches:
+      - main  # Change to 'master' if that is your default branch
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Give GitHub Pages ~30 seconds to finish deploying your update live
+      - name: Wait for GitHub Pages Deployment
+        run: sleep 30
+
+      # Step 2: Use the specialized Wayback tool to force a snapshot
+      - name: Save to Wayback Machine
+        uses: JamieMagee/wayback@v2
+        with:
+          url: https://pesto746.github.io
+          saveOutlinks: true  # Set to true if you want it to archive links on your page too
+          
